@@ -1,16 +1,22 @@
+/*elements that will have an impact on page as a whole*/
 html{
+	/*allows for full height*/
 	height: 100%;
 	overflow-x: hidden;
 	font-family: 'Poppins', sans-serif;
+	/*creates smooth scrolling effect*/
 	scroll-behavior: smooth;
 }
 
+/*elements that will have an impact on code within the body section of html*/
 body{
+	/*allows for full height*/
 	height: 100%;
 	margin: 0px;
-  background-color: rgb(237, 236, 236);
+    background-color: rgb(237, 236, 236);
 }
 
+/*nav bar*/
 #nav{
     position: fixed;
     left: calc(50% - 50px);
@@ -33,6 +39,7 @@ body{
 	background-color: rgb(177, 176, 176);
 }
 
+/*css targetting both #flowers and #closeupflowers*/
 #flowers, #closeupflowers{
 	height: 100%;
 	background-attachment: fixed;
@@ -41,10 +48,12 @@ body{
 }
 
 #flowers{
+	/*image used*/
 	background-image: url('img/flowers.jpeg');
 }
 
 #closeupflowers{
+	/*image used*/
 	background-image: url('img/flowers2.jpeg');
 }
 
@@ -53,7 +62,10 @@ body{
     position: relative;
     width: 150px;
     text-align: center;
+	/*calc is a position element that allows for the position of the div to be relative to nearest positioned ancestor*/
+	/*top edge of element will be positioned at distance equal to 100% of the elements contained inside minus 300 pixels, element will be 300 pixels above bottom edge of containing element*/
     top: calc(100% - 300px);
+	/*top edge of element will be positioned at distance equal to 50% of the containing elements' width minus 75 pixels, element will be horizontally centered within containing element and be 75 pixels to the left*/
     left: calc(50% - 75px);
 }
 
@@ -74,4 +86,3 @@ body{
 	font-size: 1.5em;
 	color:rgb(143, 132, 132);
 }
-
