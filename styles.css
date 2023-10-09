@@ -65,7 +65,7 @@ body{
 	/*calc is a position element that allows for the position of the div to be relative to nearest positioned ancestor*/
 	/*top edge of element will be positioned at distance equal to 100% of the elements contained inside minus 300 pixels, element will be 300 pixels above bottom edge of containing element*/
     top: calc(100% - 300px);
-	/*top edge of element will be positioned at distance equal to 50% of the containing elements' width minus 75 pixels, element will be horizontally centered within containing element and be 75 pixels to the left*/
+	/*left edge of element will be positioned at distance equal to 50% of the containing elements' width minus 75 pixels, element will be horizontally centered within containing element and be 75 pixels to the left*/
     left: calc(50% - 75px);
 }
 
