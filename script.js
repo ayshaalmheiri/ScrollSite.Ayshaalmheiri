@@ -1,4 +1,4 @@
-//makes sure that the scroll effect on the site is smooth and does not impact the height of each page 
+//allows for the site to scroll to a specific position under certain conditions and makes sure it is smooth when doing so
 function scrollPage(){
 	if(this.id === 'first-page'){
 		window.scrollTo({
